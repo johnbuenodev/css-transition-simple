@@ -1,0 +1,33 @@
+.hello1 {
+    border: 5px solid grey;
+    text-align: center;
+    transition:  all 5s;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.hello1:hover {
+    border: 5px solid orangered; /* dotted * * * *  */
+    background: grey;
+    color: white;
+}
+
+.hello {
+    border: 5px solid grey;
+    text-align: center;
+    transition:  all 5s;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.hello-active {
+    border: 8px solid purple;
+    text-align: center;
+    background: firebrick;
+    color: white;
+    padding: 30px;
+}

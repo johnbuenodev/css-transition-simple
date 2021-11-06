@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hello1">
+      TRANSITION Mouse Hover
+    </div>
+    <div class="hello">
+        TRANSITION OnClickJS
+    </div>
+    <script>
+        const node = document.querySelector('.hello')
+        
+        /* Quando clicar */
+        node.addEventListener('click', function(){
+          this.classList.add('hello-active'); 
+        });
+
+        /* Quando passar o evento de transition */
+        node.addEventListener('transitionend', function(){
+          this.classList.remove('hello-active'); 
+        });
+
+    </script>
+</body>
+</html>
